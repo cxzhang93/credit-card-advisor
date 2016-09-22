@@ -2,6 +2,7 @@ import sys
 import time
 import telepot
 
+
 def handle(msg):
 	content_type, chat_type, chat_id = telepot.glance(msg)
 	print(content_type, chat_type, chat_id)
